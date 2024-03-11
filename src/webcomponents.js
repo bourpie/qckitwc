@@ -1,3 +1,4 @@
+
 import r2wc from "@r2wc/react-to-web-component"
 
 import { QcHeader } from "./components/QcHeader"

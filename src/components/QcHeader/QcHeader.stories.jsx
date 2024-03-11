@@ -15,3 +15,11 @@ export const Primary = {
     titreUrl: 'https://www.quebec.ca/',
   },
 };
+
+export const Secondary = {
+  args: {
+    titreTexte: 'Ministère de l\'environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs',
+    titreUrl: 'https://www.quebec.ca/',
+    primary: false,
+  },
+};
