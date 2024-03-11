@@ -1,0 +1,40 @@
+.qc-header {
+    background: #095797;
+    color: white;
+    padding-inline: 1rem;
+    
+
+}
+
+.qc-header .qc-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    min-height: 7.2rem;
+    margin: 0 auto;
+}
+
+.qc-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.qc-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.qc-header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.qc-header nav ul,
+.qc-header nav ul li  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
