@@ -7,6 +7,7 @@ const QcHeaderWc = r2wc(QcHeader, {
     props: {
         titreTexte: "string",
         titreUrl: "string",
+        recherche: "boolean"
     }
 })
 

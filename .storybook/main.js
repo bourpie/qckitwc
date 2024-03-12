@@ -7,7 +7,9 @@ const config = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-viewport"
+    "@storybook/addon-viewport",
+    "@storybook/addon-a11y",
+    "@storybook/addon-designs"
     
   ],
   framework: {
