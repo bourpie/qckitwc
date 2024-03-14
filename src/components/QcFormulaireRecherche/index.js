@@ -1,0 +1,1 @@
+export { QcFormulaireRecherche } from './QcFormulaireRecherche'

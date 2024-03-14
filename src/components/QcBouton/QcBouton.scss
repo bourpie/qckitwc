@@ -1,0 +1,19 @@
+.qc-bouton {
+    display: inline-block;
+    font-style: 'Open Sans';
+    min-width: 156px;
+    text-align: center;
+    padding: 16px;
+    border: 0;
+    font-weight: 700;
+    text-decoration: none;
+    max-width: 340px;
+    width: auto;
+    font-size: 1rem;
+    line-height: 1.5;
+    &--principal {
+        background-color: #095797;
+        color: #fff;
+        box-shadow: 0 3px 6px rgba(34,54,84,0.15);
+    }
+}

@@ -1,1 +1,3 @@
-export * from './components/QcHeader'
+export * from './components/QcPivHeader'
+export * from './components/QcBouton'
+export * from './components/QcFormulaireRecherche'

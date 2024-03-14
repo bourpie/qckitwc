@@ -1,9 +1,9 @@
 
 import r2wc from "@r2wc/react-to-web-component"
 
-import { QcHeader } from "./components/QcHeader"
+import { QcPivHeader } from "./components/QcPivHeader"
 
-const QcHeaderWc = r2wc(QcHeader, {
+const QcPivHeaderWc = r2wc(QcPivHeader, {
     props: {
         titreTexte: "string",
         titreUrl: "string",
@@ -11,4 +11,4 @@ const QcHeaderWc = r2wc(QcHeader, {
     }
 })
 
-customElements.define("qc-piv-header", QcHeaderWc)
+customElements.define("qc-piv-header", QcPivHeaderWc)

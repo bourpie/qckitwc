@@ -33,6 +33,7 @@
   "dependencies": {
     "@r2wc/react-to-web-component": "^2.0.3",
     "@storybook/addon-a11y": "^8.0.0",
+    "@storybook/addon-designs": "^8.0.0--canary.232.fa1bc6b.0",
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",

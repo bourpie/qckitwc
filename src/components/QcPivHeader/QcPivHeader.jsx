@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import './QcHeader.scss';
+import './QcPivHeader.scss';
+import {QcFormulaireRecherche} from '../QcFormulaireRecherche/QcFormulaireRecherche';
 import logo from "../../assets/img/quebec-logo.svg";
 import logoMobile from "../../assets/img/quebec-logo-mobile.svg";
 import loupe from "../../assets/img/loupe-piv-droite.svg";
 
-export const QcHeader = ({ titreTexte, titreUrl, recherche, placeholder, formAction, ...props }) => {
+export const QcPivHeader = ({ titreTexte, titreUrl, recherche, placeholder, formAction, ...props }) => {
     const [toggleRecherche, setToggleRecherche] = useState(false);
 
     function toggleRechercheHandler() {
@@ -36,17 +37,14 @@ export const QcHeader = ({ titreTexte, titreUrl, recherche, placeholder, formAct
                 </nav>
             </div>
             { recherche && toggleRecherche &&
-                <div className="qc-container recherche-form">
-                    <form action={formAction}>
-                        <input className='form-recherche' type="text" placeholder={placeholder} />
-                    </form>
-                </div>
+                
+                <QcFormulaireRecherche formAction={formAction} placeholder={placeholder} />
             }
         </header>
     );
 };
 
-QcHeader.propTypes = {
+QcPivHeader.propTypes = {
     /**
      * La recherche est-elle activé ?
      */
@@ -70,7 +68,7 @@ QcHeader.propTypes = {
 
   };
   
-  QcHeader.defaultProps = {
+  QcPivHeader.defaultProps = {
     recherche: false,
     titreTexte: 'Gouvernement du Québec',
     titreUrl: 'https://www.quebec.ca/',
