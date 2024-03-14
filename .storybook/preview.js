@@ -10,9 +10,11 @@ const preview = {
         date: /Date$/i,
       },
     },
-    // docs: {
-    //   toc: true, // 👈 Enables the table of contents
-    // },
+    options: {
+      storySort: {
+        order: ['Base', 'Composants', 'Modèles'],
+      },
+    },    
   },
 };
 
