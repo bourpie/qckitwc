@@ -9,9 +9,33 @@ export default {
 };
 
 export const Primary = {
-  name: 'Bouton',
+  name: 'Primaire',
   args: {
-    label: 'Mon bouton',
+    label: 'Primaire',
     style: 'primary',
+  }
+};
+
+export const Secondaire = {
+  name: 'Secondaire',
+  args: {
+    label: 'Secondaire',
+    style: 'secondary',
+  }
+};
+
+export const Tertiaire = {
+  name: 'Tertiaire',
+  args: {
+    label: 'Tertiaire',
+    style: 'outline-primary',
+  }
+};
+
+export const Avertissement = {
+  name: 'Avertissement',
+  args: {
+    label: 'Avertissement',
+    style: 'danger',
   }
 };

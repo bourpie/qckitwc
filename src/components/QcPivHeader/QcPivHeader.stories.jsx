@@ -1,10 +1,5 @@
 import { QcPivHeader } from './QcPivHeader';
 
-/**
- * Le Bandeau d’en-tête du Programme d’identification visuelle est le premier élément 
- * visible dans le haut de chaque page. Il permet d'identifier le site et d'indiquer que 
- * celui-ci est un site officiel du gouvernement du Québec. https://design.quebec.ca/design/modeles/bandeau-en-tete-piv
- */
 export default {
   title: 'Modèles/Bandeau d\'entête du PIV',
   component: QcPivHeader,

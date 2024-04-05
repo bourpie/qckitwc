@@ -1,6 +1,6 @@
 .qc-form-recherche {
 
-    padding-bottom: 1rem;
+    padding: 0 0 1rem 0;
     
     button {
         background-color: white;
@@ -8,14 +8,12 @@
         border-left: none;
         &:hover {
             border: 1px solid #dee2e6;
+            border-color: var(--bs-btn-hover-border-color);
 
         }
     }
 
     &--body {
-        padding:1.5rem 0.8rem 1.5rem 0.8rem;
-        background-color: #f2f1f1;
-
         button {
             background-color: #095797;;
 

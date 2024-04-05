@@ -7,7 +7,11 @@ import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-process.env.NODE_ENV = "production";
+var process = { 
+  env: {
+    NODE_ENV: "production",
+  } 
+};
 
 const reactComponentLibrary = {
   plugins: [],
